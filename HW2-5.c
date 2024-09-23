@@ -1,4 +1,4 @@
-// // P77 Programming 2번
+// P77 Programming 2번
 
 #include <stdio.h>
 int main(void)
