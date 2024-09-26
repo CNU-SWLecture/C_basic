@@ -1,4 +1,4 @@
-// P75 연습문제 6
+// P75 연습문제 6번
 
 #include <stdio.h>
 int main(void)

@@ -1,4 +1,4 @@
-// P55 중간점검 3
+// P55 중간점검 3번
 
 #include <stdio.h>
 int main(void)

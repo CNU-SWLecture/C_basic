@@ -8,8 +8,6 @@
 //     return 0;
 // }
 
-// int : %d, float : %f, double : %lf, character : %c
-
 #include <stdio.h>
 int main(void)
 {
@@ -18,3 +16,10 @@ int main(void)
     scanf("%d", &x);
     return 0;
 }
+
+// printf,  scanf 형식 지정자
+// int : %d
+// float : %f
+// double : %lf
+// char(문자): %c
+// char(문자열) : %s
