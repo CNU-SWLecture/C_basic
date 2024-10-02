@@ -1,5 +1,10 @@
 // P122 Programming 8번
 
+// 기호 상수 정의
+#define MINUTE_PER_HOUR 60
+#define SECONDS_PER_HOUR 3600
+#define METER_PER_KILOMETER 1000
+
 #include <stdio.h>
 int main(void)
 {
@@ -18,8 +23,12 @@ int main(void)
     printf("초를 입력하시오: ");
     scanf("%lf", &s);
 
-    time = h + m/60 + s/3600;
-    d_km = d_m/1000;
+    // time = h + m/60 + s/3600;
+    // d_km = d_m/1000;
+    
+    // 기호 상수를 사용하여 계산
+    time = h + m / MINUTE_PER_HOUR + s / SECONDS_PER_HOUR;
+    d_km = d_m / METER_PER_KILOMETER;
 
     v = d_km / time;
     printf("속도: %lf", v);
